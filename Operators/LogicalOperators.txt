@@ -1,0 +1,207 @@
+Relational Operators:
+
+
+- these operators are used to compare two values.
+- the result of a relational operation is 1(true) or 0(false).
+
+
+1. '==' : Equal to 
+2. '!=' : Not Equal to
+3. '>' : Greater than
+4. '<' : Less than
+5. '>=' : Greater than or equals to
+6. '<=' : Smaller than or equals to
+
+
+a = 10 , b = 5
+
+'==' : printf("%d", a==b) : 0
+
+
+'!=' : printf("%d" , a!=b) : 1
+
+
+'>' : printf("%d" , a > b) : 1
+
+
+'<' : printf("%d" , a < b) : 0
+
+
+
+
+a = 10 , b = 5
+
+
+'>=' : printf("%d" , a >= b) : 1
+
+a = 10 , b = 10
+
+'>=' : printf("%d" , a >= b) : 1
+
+
+a = 5 , b = 10
+
+'>=' : printf("%d" , a >= b) : 0
+
+
+a = 5 , b = 10
+
+'<=' : printf("%d" , a <= b) : 1
+
+a = 5 , b = 5
+
+'<=' : printf("%d" , a <= b) :  1
+
+a = 10 , b = 5
+
+'<=' : printf("%d" , a <= b) : 0
+
+
+
+Logical Operators:
+
+-it will only perform operations on boolean values.
+- it will return true(1) or false(0).
+
+
+1.'&&'
+2.'||'
+3.'!'
+
+
+
+
+1. '&&' : AND
+true	true  = true
+
+false  	flase = flase
+
+true	false = false
+
+false 	true = false
+
+
+
+a = 5 , b = 3
+result = (a > 3) && (b < 5)
+
+	    1		1 	=  	1
+	    
+	   
+result = (a < 3) && (b > 5)
+
+	    0    	0    	= 	0
+	    
+	    
+result = (a > 3) && (b > 5)    
+
+	   1            0	= 	0
+	   
+	  
+	  a = 5 , b = 3
+	  
+result =  (a < 3) && (b < 5)
+
+	    0            1     =   	0
+	  
+	  
+	  
+	  
+	  
+
+	    
+	   
+
+2. '||'  : OR
+
+
+true	true	:	true
+
+true	flase	: 	true
+
+false	true	:	true
+
+false 	false	: 	flase
+
+
+
+a = 5 , b = 3
+result = (a > 3) || (b < 5)
+
+	    1		1	=	1
+	    
+	   
+result = (a < 3) || (b > 5)
+
+	    0		0	=	0
+	    
+	    
+result = (a > 3) || (b > 5)    
+
+	   1		0	=	1
+	   
+	  
+	  a = 5 , b = 3
+	  
+result =  (a < 3) || (b < 5)
+
+	    0            1     =   	1
+	    
+	    
+	    
+	    
+	    
+'!' : Not 
+
+
+true : false
+false : true
+
+int a = 5 , b = 2;
+
+printf("%d" , (a > b)); = 1
+
+printf("%d" , !(a > b)); = 0
+
+printf("%d" , (a < b)); = 0
+
+printf("%d" , !(a < b)); = 1 
+	    
+	    
+	    
+	    
+
+
+
+	  
+
+
+
+Write a program that takes an integer as input, checks if it is greater than 5, and prints the result.
+
+
+Write a program that takes two integers as input, checks if they are equal, and prints the result.
+
+
+Write a program that takes two floating-point numbers as input, checks if the first is less than the second, and prints the result.
+
+
+Write a program that takes a character as input, checks if it is greater than 'a', and prints the result.
+
+
+
+Logical:
+
+Write a program that takes two integers as input, checks if both are greater than 0 using a logical AND operation, and prints the result.
+
+Write a program that takes two integers as input, checks if at least one of them is greater than 0 using a logical OR operation, and prints the result.
+
+Write a program that takes an integer as input, checks if it is not equal to 0 using a logical NOT operation, and prints the result.
+
+Write a program that takes three integers as input, checks if the first integer is greater than the second AND the second is less than the third, and prints the result.
+
+Write a program that takes three integers as input, checks if the first integer is positive OR the second integer is negative, and prints the result.
+
+
+
+
