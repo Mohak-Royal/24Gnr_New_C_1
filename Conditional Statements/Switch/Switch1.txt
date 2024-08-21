@@ -1,0 +1,96 @@
+Switch Statement : This is an alternative for if-else ladder.
+
+It allows us to execute multiple operations for the different possible cases
+
+
+Rules of Switch Case:
+
+
+1.The switch expression must be of an integer or character type.
+2.The case value must be an integer or character constant.
+3.The case value can be used only inside the switch statement.
+4.The break statement in switch case is not must. It is optional. If there is no break statement found in the case, all the cases will be executed present after the matched case.
+
+Syntax:
+
+switch(expression/variable/constant){
+	
+	case 'value1':
+		//code to be executed
+		break;
+
+	case 'value2':
+		//code to be executed
+		break;
+
+	default:
+		//code to be executed
+		//break is not mandatory	
+}
+
+
+
+
+Example:
+
+switch(choice){
+	case 1:
+		pavbhaji;
+		break;
+	case 2:
+		Dosa
+		break;
+
+	default:
+		invalid
+		break;
+}
+
+
+
+
+
+Valid switch:
+
+switch(x){}
+switch(x>y){}
+switch(a+b-2){}
+switch(func(x,y)){}
+
+Not Valid :
+
+
+switch(x+3.5)
+
+
+
+Valid case:
+
+case 3:
+case 'q':
+case 1+2:
+case 'x' > 'y':
+
+
+Invalid case:
+
+case 2.4;
+case x;
+case x+2;
+case 1,2,3;
+
+
+
+1.PavBhaji
+2.Dosa
+3.Manchurian
+4.Dal bati
+
+int choice;
+if (choice == 1){
+	pavbhaji
+}else if (choice == 2){
+	Dosa
+}else{
+	invalid
+}
