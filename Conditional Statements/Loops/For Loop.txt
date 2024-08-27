@@ -1,0 +1,74 @@
+Loops:  repeating the same process multiple time until a specific condition is satisfied.
+
+
+Advantages : 
+-it provides code reusability
+-we do not need to write the same code again and again
+-we can traverse over the elements of the data structures like array ...
+
+
+Types of Loops in C:
+
+1. For Loop
+2. While loop
+3. do while loop
+
+
+
+
+
+For Loop : 
+-for loop is used to iterate the statement or a particular part of the program several times.
+-for loop is used when Number of Iterations are fixed
+
+
+Syntax: 
+
+for(initialization ; condition ; increment/decrement){
+	// code
+}
+
+
+
+
+initialization:
+
+-The expression represents the initialization of the loop variable.
+-We can initialize more than one variable in Expression 1.
+-Expression 1 is optional.
+-In C, we can not declare the variables in Expression 1. However, It can be an exception in some compilers.
+
+
+Condition:
+
+
+-Expression 2 can have more than one condition. However, the loop will iterate until the last condition becomes false. Other conditions will be treated as statements.
+-Expression 2 is optional.
+-We can pass zero or non-zero value in expression 2. However, in C, any non-zero value is true, and zero is false by default.
+
+
+
+
+increment/decrement:
+
+-Expression 3 is used to update the loop variable.
+-We can update more than one variable at the same time.
+-Expression 3 is optional.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

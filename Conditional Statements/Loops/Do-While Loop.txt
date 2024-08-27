@@ -1,0 +1,27 @@
+Do-While Loop:
+
+- it will execute the code block first , followed by the condition.
+
+-whether the condition is originally false , it ensure that the code block is performed at least once
+
+
+Syntax:
+
+
+do{
+	//code
+}while(condition);
+
+
+
+Example :
+
+int i = 1;
+
+do{
+	printf("%d\n",i)
+	i++;
+}while(i <= 5);
+
+
+
