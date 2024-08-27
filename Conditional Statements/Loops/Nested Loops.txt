@@ -1,0 +1,52 @@
+Nested Loops:
+
+- it is the feature that allows the looping of statement inside another loop.
+
+- Any number of loops can be defined inside another loop.
+
+- You can define any type of loop inside another loop. 
+
+
+Syntax:
+
+Outer_Loop{
+
+	Inner_loop{
+
+		//inner loop code
+	}
+
+
+	//outer loop code
+}
+
+
+Nested for loop:
+
+
+for(expression1 ; expression2 ; expression3){
+
+	//code
+
+	for(expression1 ; expression2 ; expression3){
+			//code
+	}
+
+	//code
+}
+
+
+
+
+
+while(condition){
+	//for();
+	//while();
+	do while();
+}
+
+
+do{
+	while();
+	for();
+}while();
